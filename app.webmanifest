@@ -2,5 +2,15 @@
   "name" : "La super TODO liste pour se mettre des objectifs pendant qu'on code",
   "short_name" : "SuperTODO",
   "start_url": "./",
-  "orientation" : "all"
+  "orientation" : "all",
+  "theme_color": "#ffc252",
+  "scope": "./",
+  "display": "standalone"
+  "icons" : [
+    {
+      "src": "",
+      "sizes": "100x100",
+      "type": "image/png"
+    }
+  ]
 }
