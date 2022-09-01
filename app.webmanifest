@@ -1,0 +1,6 @@
+{
+  "name" : "La super TODO liste pour se mettre des objectifs pendant qu'on code",
+  "short_name" : "SuperTODO",
+  "start_url": "./",
+  "orientation" : "all"
+}
