@@ -2,15 +2,36 @@
   "name" : "La super TODO liste pour se mettre des objectifs pendant qu'on code",
   "short_name" : "SuperTODO",
   "start_url": "./",
-  "orientation" : "all",
+  "orientation" : "portrait",
   "theme_color": "#ffc252",
   "scope": "./",
-  "display": "standalone"
-  "icons" : [
+  "display": "standalone",
+  "icons": [
     {
-      "src": "",
-      "sizes": "100x100",
-      "type": "image/png"
+        "src" : "icons/android-icon-36x36.png",
+        "sizes": "36x36",
+        "type" : "image/png"
+    },
+    {
+        "src" : "icons/android-icon-96x96.png",
+        "sizes": "96x96",
+        "type" : "image/png"
+    },
+    {
+        "src" : "icons/android-icon-192x192.png",
+        "sizes": "192x192",
+        "type" : "image/png"
+    },
+    {
+        "src" : "icons/android-icon-192x192.png",
+        "sizes": "192x192",
+        "type" : "image/png",
+        "purpose": "maskable"
+    },
+    {
+        "src" : "android-icon-512x512.png",
+        "sizes": "512x512",
+        "type" : "image/png"
     }
-  ]
+]
 }

@@ -31,4 +31,14 @@ Sans la propriété display nous n'avons pas de PWA
 browser en value met juste un bookmarks et ce n'est pas ce que l'on veut 
 On met cela en StandAlone car on souhaite que le comportement soit comme une standAlone Application
 minimal-ui permet de juste avoir le boutton return et la croix / reload attention ce n'est pas disponible sur IOS et ça basculera sur browser
+Fullscreen passera en full l'experience du site pas sur iOS et desktop
+
+ICON 
+
+elle peuvent être utilisée en SVG, mais elle ne sont pas supportées partout encore alors que le png pour les icônes sont accpetés partout 
+pour l'instant il faut déclarer plusieurs tailles
+
+<link ref="apple-touch-icon" href="icons/android-icon-512x512.png"> 
+
+Ci-dessus est obligé, car safari ne reconnais pas l'icone au sinon quand on veut faire une installation depuis le navaigateur.
 
